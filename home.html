@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" author="Jovan Petković">
+	<title>Jovan Petković</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+	<div class='page'>
+		<nav>
+			<div id="container">
+				<img src="images/logo.png">
+				<div id="navbuttons">
+					<button>Home</button>
+					<button>Work</button>
+					<button>Contact</button>
+					<div id="underbar" class="Home"></div>
+				</div>
+			</div>	
+		</nav>
+		<div class="frame" id="home">
+			<div>
+				<div class="textBox">
+					<h2>/*</h2><h2 class='jovan'>Hi I'm Jovan</h2><h2>*/</h2>
+				</div>
+			</div>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et justo sit amet turpis facilisis mollis. Sed commodo purus leo, fermentum aliquam ante bibendum sit amet.</p>
+			</div>
+		</div>
+		<div class="frame hide" id="work">
+			<div class="workHeader">
+				<div class="textBox">
+					<h2>/*</h2><h2 class="jovan">My Work</h2><h2>*/</h2>
+				</div>
+			</div>
+			<div class='content'>
+				<button id="btn1">
+					<img src="images/fullscreen.png" class='btnimg'>
+				</button>
+				<button id="btn2" class='btnimg'>
+					<img src="images/fullscreen.png">
+				</button>
+				<button id="btn3" class='btnimg'>
+					<img src="images/fullscreen.png">
+				</button>
+			</div>
+		</div>
+		<div class="frame hide" id="contact">
+			<div>
+				<div class="textBox">
+					<h2>/*</h2><h2 class="jovan">Contact</h2><h2>*/</h2>
+				</div>
+			</div>
+			<div>
+				<form action="https://formspree.io/jovanpetkovic.petkovic@gmail.com" method="POST">
+					<input type="text" name="name" placeholder="Name">
+					<input type="email" name="_replyto" placeholder="Email">
+					<textarea name="text" placeholder="Type your message here"></textarea>
+					<button value="Send">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class='pictureframe'>
+		<button id="exit"></button>
+		<img src="images/vission.png" id="btn1i">
+		<img src="images/village.png" id='btn2i'>
+		<img src="images/valu.png" id='btn3i'>
+	</div>
+	<script type="text/javascript" src="scripts/hero.js"></script>
+	<script type="text/javascript" src="scripts/nav.js"></script>
+	<script type="text/javascript" src="scripts/show.js"></script>	
+	<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

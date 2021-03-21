@@ -1,0 +1,89 @@
+.Home{
+	left: 0;
+	transition: 0.5s all;
+}
+
+.Work{
+	left: 6.2em;
+	transition: 0.5s all;
+}
+
+.Contact{
+	left: 12.4em;
+	transition: 0.5s all;
+}
+
+.home{
+	left: 0;
+	transition: 0.5s all;
+}
+
+.work{
+	left: 6.2em;
+	transition: 0.5s all;
+}
+
+.contact{
+	left: 12.4em;
+	transition: 0.5s all;
+}
+
+
+#container{
+	max-width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+nav{
+	height: 60px;
+	width: 100vw;
+}
+
+nav>#container{
+	display: flex;
+	justify-content: space-between;
+}
+
+nav img{
+	height: 40px;
+	width: auto;
+	margin: auto 0 auto 10px;
+}
+
+#navbuttons{
+	position: relative;
+}
+
+#navbuttons button{
+	font-size: 1.125em;
+	height: 60px;
+	width: 6em;
+	background: transparent;
+	border: none;
+	padding: 0;
+	color: white;
+}
+
+#navbuttons>button:hover{
+	cursor: pointer;
+}
+
+#navbuttons>button:focus{
+	outline: none;
+}
+
+#navbuttons>button::-moz-focus-inner {
+  border: 0;
+}
+
+#navbuttons div{
+	font-size: 1.125em;
+	width: 6em;
+	position: absolute;
+	height: 2px;
+	background-color: white;
+	bottom: 0;
+	transition: 0.5s all;
+	margin: 0;
+	padding: 0;
+}

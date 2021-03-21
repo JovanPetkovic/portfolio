@@ -1,0 +1,88 @@
+@keyframes widthAnimation{
+	0% {width: 0px}
+	100% { width: 82%}
+}
+
+@keyframes alignAnimation{
+	from {left: 100%}
+	to {left: 49%}
+}
+
+div.hide{
+	visibility: hidden;
+}
+
+div.frame>div.opacityShow{
+	opacity: 1;
+	transition: opacity 2s 6s;	
+}
+
+.opacityHide{
+	opacity: 0;
+}
+
+div.showBox{
+	margin-left: -360px;
+	width: 720px;
+}
+
+div.alignAnimation{
+	left: 50%;
+	transition: left 2s 4s;
+}
+
+.headerAnimation{
+	animation:
+	widthAnimation 2s 2s forwards;
+}
+
+.textBox{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: fixed;
+	display: flex;
+	justify-content: center;
+}
+
+.frame{
+	overflow: hidden !important;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	position: absolute;
+	margin-left: 0;
+	width: 0;
+	height: 360px;
+	border: 1px white solid;
+	top: calc(50% - 180px);
+	left: 50%;
+	transition: 
+		margin-left 2s ease-in-out,
+		width 2s ease-in-out,
+		opacity 1s ease-in-out;
+}
+
+.jovan{
+	display: block;
+	font-size: 2.25em;
+	width: 0;
+}
+
+.frame h2 {
+	display: inline;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0;
+}
+
+.frame>div{
+	position: relative;
+	width: 50%;
+	min-height: 30px;
+	transition: 1s all;
+}
+
+.frame>div:nth-child(2){
+	opacity: 0;
+}

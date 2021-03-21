@@ -1,0 +1,38 @@
+#contact{
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+#contact form{
+	display: flex;
+	flex-direction: column;
+	height: 288px;
+	justify-content: space-between;
+	align-items: center
+}
+
+#contact form input{
+	border: none;
+	border-bottom: 1px white solid;
+	background: transparent;
+	width: 300px;
+}
+#contact form textarea{
+	height: 40%;
+	background: rgba(0,0,0,0.5);
+	border: 1px solid white;
+	resize: none;
+	width: 300px;
+}
+
+#contact form button{
+	background: rgba(0,0,0,0.5);
+	border: 1px white solid;
+	width: 150px;
+	height: 40px;
+}
+#contact form button:focus{
+	background-color: white;
+	color: #1A004A;
+	border: 1px #1A004A solid;
+}

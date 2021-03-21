@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import url('nav.css');
+@import url('home.css');
+@import url('work.css');
+@import url('contact.css');
+@import url('hero.css');
+
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url('../images/city.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+*{
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: "Montserrat","Open Sans", sans-serif;
+	line-height: 1.375em;
+	color: white;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2.25em;
+}
+
+h3{
+	font-size: 1.75em;
+}
