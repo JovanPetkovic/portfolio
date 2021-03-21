@@ -7,6 +7,7 @@ var hero = {
 		this.home = document.querySelector('#home');
 	},
 	frameShow: function(frame){
+		console.log(frame);
 		var animatedH2Text = frame.querySelector('.jovan');
 		var textBox = frame.querySelector('.textBox');
 		var secondDiv = frame.children[1];

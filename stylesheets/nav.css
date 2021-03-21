@@ -29,7 +29,7 @@
 }
 
 
-#container{
+.container{
 	max-width: 960px;
 	margin: 0 auto 0 auto;
 }
@@ -86,4 +86,39 @@ nav img{
 	transition: 0.5s all;
 	margin: 0;
 	padding: 0;
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (min-device-width: 0) and (max-device-width: 480px) {
+
+#navbuttons button{
+font-size: 1em;
+width: 4em;
+margin-right: 10px;
+}
+
+#navbuttons div{
+	width: 4em;
+}
+
+.work{
+	left: 4.2em;
+}
+
+.contact{
+	left: 8.4em;
+}
+
+.Work{
+	left: 4.2em;
+}
+
+.Contact{
+	left: 8.4em;
+}
+
 }
