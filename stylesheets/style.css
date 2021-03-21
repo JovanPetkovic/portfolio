@@ -38,3 +38,15 @@ h2{
 h3{
 	font-size: 1.75em;
 }
+
+
+@media only screen and (min-device-width: 0) and (max-device-width: 800px){
+	body{
+		height: auto;
+		background-color: black;
+	}
+
+	div.hide{
+		display: none;
+	}
+}

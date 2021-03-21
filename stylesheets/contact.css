@@ -41,3 +41,19 @@
 	color: #1A004A;
 	border: 1px #1A004A solid;
 }
+
+@media only screen and (min-device-width: 0) and (max-device-width: 800px){
+	
+
+	#contact{
+		margin-top: 0;
+		position: absolute;
+		top: 50vh;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	#contact>div{
+		margin-bottom: 30px;
+		transition: 1s opacity;
+	}
+}
